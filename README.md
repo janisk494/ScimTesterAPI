@@ -1,2 +1,0 @@
-# ScimTesterAPI
-Scim Tester API

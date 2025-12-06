@@ -1,0 +1,36 @@
+/* Dark theme fixes */
+.app-layout.dark h1,
+.app-layout.dark h2,
+.app-layout.dark h3,
+.app-layout.dark h4,
+.app-layout.dark p,
+.app-layout.dark span,
+.app-layout.dark div {
+    color: #ffffff !important;
+}
+
+.app-layout.dark .card h3,
+.app-layout.dark .card p {
+    color: #ffffff !important;
+}
+
+.app-layout.dark .logo {
+    color: #ffffff !important;
+}
+
+.app-layout.dark input,
+.app-layout.dark textarea,
+.app-layout.dark select {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+    border: 1px solid #555555 !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
+
+.app-layout.dark input:focus,
+.app-layout.dark textarea:focus,
+.app-layout.dark select:focus {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+}
