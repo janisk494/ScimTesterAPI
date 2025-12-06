@@ -1,5 +1,5 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
-WORKDIR /ScimTesterAPI
+WORKDIR /ScimTester.Api
 COPY . .
 RUN dotnet publish -c Release -o /app
 
